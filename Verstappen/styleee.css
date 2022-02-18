@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+}
+
+.background{
+    z-index: -2;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+
+    background-blend-mode: multiply;
+}
+
+.login-background{
+    z-index: -2;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+
+    background-blend-mode: multiply;
+}
+
+.box1 {
+    position: relative;
+    z-index: -1;
+    width: 300px;
+    height: 400px;
+    background: #5C7892;
+    left: 200px;
+    top: 90px;
+    opacity: 0.7;
+    border-radius: 25px;
+    border: 2px solid darkgray;
+}
+
+.text1{
+    font-size: 14px;
+    font-family: "Calibri Light";
+    position: absolute;
+    left: 5px;
+    top: 30px;
+    text-align: center;
+}
+
+.box2{
+    position: relative;
+    z-index: -3;
+    width: 270px;
+    height: 370px;
+    background: #5C7892;
+    left: 350px;
+    top: 90px;
+    opacity: 0.7;
+    border-radius: 25px;
+    border: 2px solid darkgray;
+}
+
+.text2{
+    font-size: 10px;
+    font-family: "Calibri Light";
+    position: absolute;
+    left: 5px;
+    top: 90px;
+    text-align: center;
+    color: ;
+}
+
+.box3{
+    position: relative;
+    z-index: -2;
+    width: 270px;
+    height: 370px;
+    background: #5C7892;
+    left: 750px;
+    top: -160px;
+    opacity: 0.7;
+    border-radius: 25px;
+    border: 2px solid darkgray;
+}
+
+.text3{
+    font-size: 10px;
+    font-family: "Calibri Light";
+    position: absolute;
+    left: 5px;
+    top: 30px;
+    text-align: center;
+    color: ;
+}
+
+
+
+
+.box4{
+    position: relative;
+    opacity: 0.7;
+    width: 350px;
+    height: 450px;
+    background: #98C0E4;
+    left: 515px;
+    top: 110px;
+    border-radius: 46px;
+
+}
+h2{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    margin: 0;
+    font-size: 40px;
+    font-family: "Bodoni MT";
+}
+
+.InputForm{
+    position: fixed;
+    text-align: center;
+    left: 43.5%;
+    padding-top: 120px;
+
+}
+
+input{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin:10px 0 10px 0;
+}
+
+.InputForm2{
+    position: relative;
+    left: 25px;
+    top: 250px;
+}
+

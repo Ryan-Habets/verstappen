@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+.Background{
+    z-index: -1;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+
+    background-blend-mode: multiply;
+}
+
+Send{
+    color: lightsteelblue;
+}
+
+text{
+    color: dimgrey;
+}
+
+
+
+
+
+.InputForm{
+   position: fixed;
+    text-align: center;
+    left: 45%;
+    padding-top: 100px;
+}
+
+input{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin:10px 0 10px 0;
+}
